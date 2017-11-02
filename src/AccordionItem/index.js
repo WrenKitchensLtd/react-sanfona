@@ -102,7 +102,7 @@ export default class AccordionItem extends Component {
     const imgLoaded = () => {
       imagesLoaded++;
 
-      if (imagesLoaded === images.length) {
+      if (imagesLoaded === images.length && this.refs.item) {
         this.setState({
           maxHeight: expanded ? node.scrollHeight + 'px' : 0,
           overflow: 'hidden'
