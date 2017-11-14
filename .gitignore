@@ -5,5 +5,4 @@ npm-debug.log
 **/*-bundle.*.js
 demo/bundle.*
 dist
-dist-modules
 page/
